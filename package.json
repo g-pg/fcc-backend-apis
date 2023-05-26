@@ -2,6 +2,12 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "G. Gusso",
 	"description": "FreeCodeCamp challenge solution",
+	"keywords": [
+		"freecodecamp",
+		"backend",
+		"api",
+		"challenge"
+	],
 	"dependencies": {
 		"express": "^4.18.2"
 	},
