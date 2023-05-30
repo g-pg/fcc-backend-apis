@@ -13,6 +13,9 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.post('/name', function(req, res) {
+  res.json({name: `${req.body.first} ${req.body.last}`})
+})
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/views/index.html");
 });
